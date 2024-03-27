@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 63, 3);
+
+}
+.container{
+    width: 40%;
+    min-width: 350px;
+    background-color: white;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: gray;
+}
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#taskinfo{
+    width: 75%;
+    height: 35px;
+    border: 2px solid rgb(58, 57, 57);
+    border-radius: 6px;
+    color: black;
+    font-weight: 400;
+    padding-left: 5px;
+
+
+}
+#taskinfo:focus{
+    outline: none;
+    border-color: rgb(2, 41, 2);
+}
+#add{
+    width: 20%;
+    height: 35px;
+    border-radius: 6px;
+    font-weight: 500;
+    background: rgb(3, 63, 3);
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+#tasklist{
+    margin-bottom: 9px;
+    
+    padding: 10px 1cap;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    border: 10px solid white;
+    background-color: gray;
+    row-gap: 10px;
+    
+
+}
+.add-button:hover{
+    background-color: rgb(3, 47, 3);
+    color: rgb(121, 11, 11);
+}
